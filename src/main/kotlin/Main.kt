@@ -1,7 +1,14 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun fun1(a : Int, b : Int) : Int {
+    return (a + b) * 2
+}
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main() {
+    val const1 = 1
+    var result: Int
+    print("Hello ")
+    println("World!")
+    result = const1 + 3
+    result += 1
+    println( "result = $result")
+    println( fun1( 2,3) )
 }
