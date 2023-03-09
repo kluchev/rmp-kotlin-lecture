@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
-class TestSimpleClass {
+class SimpleClassTest {
     var result : Int = 0
 
     @Test
