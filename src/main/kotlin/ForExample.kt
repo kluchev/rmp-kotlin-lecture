@@ -1,4 +1,4 @@
-class ForClass {
+class ForExample {
 
     fun testFor() {
         val array : ArrayList<String> = arrayListOf("foo", "bar", "baz")

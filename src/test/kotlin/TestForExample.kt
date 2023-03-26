@@ -1,22 +1,22 @@
 import org.junit.Test
 
-class TestForClass {
+class TestForExample {
 
     @Test
     fun testFor() {
         println("test for")
-        ForClass().testFor()
+        ForExample().testFor()
     }
 
     @Test
     fun testRepeatIt() {
         println("test repeat it")
-        ForClass().testRepeatIt()
+        ForExample().testRepeatIt()
     }
 
     @Test
     fun testRepeatI() {
         println("test repeat i")
-        ForClass().testRepeatI()
+        ForExample().testRepeatI()
     }
 }

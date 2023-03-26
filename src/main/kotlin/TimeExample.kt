@@ -9,7 +9,7 @@ inline fun deltaTime(block: () -> Unit) : Long {
 }
 
 
-class TimeClass {
+class TimeExample {
 
     fun testTime1() : Long {
         var result : Long

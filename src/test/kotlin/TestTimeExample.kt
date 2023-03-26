@@ -1,6 +1,6 @@
 import org.junit.Test
 
-class TestTimeClass {
+class TestTimeExample {
 
     @Test
     fun test1() {
@@ -8,8 +8,8 @@ class TestTimeClass {
         val array2 : ArrayList<Long> = arrayListOf()
 
         repeat(10 ) {
-            array1.add(TimeClass().testTime1())
-            array2.add(TimeClass().testTime2())
+            array1.add(TimeExample().testTime1())
+            array2.add(TimeExample().testTime2())
         }
 
         repeat(10) {

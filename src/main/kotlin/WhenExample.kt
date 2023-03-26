@@ -1,4 +1,4 @@
-class WhenClass {
+class WhenExample {
     fun testWhen1(value: Int): String {
         var result = ""
         when (value) {

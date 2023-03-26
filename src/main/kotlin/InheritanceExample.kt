@@ -10,7 +10,7 @@ open class B() : A() {
     }
 }
 
-class InheritanceClass : B() {
+class InheritanceExample : B() {
     fun c() {
         a()
         b()

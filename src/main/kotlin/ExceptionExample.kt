@@ -1,4 +1,4 @@
-class ExceptionClass {
+class ExceptionExample {
 
     fun foo(a : Int) {
         if( a > 20 ) {

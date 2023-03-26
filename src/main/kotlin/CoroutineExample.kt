@@ -1,6 +1,6 @@
 import kotlinx.coroutines.*
 
-class CoroutineClass {
+class CoroutineExample {
 
     fun foo() {
         val context = newSingleThreadContext("test")
