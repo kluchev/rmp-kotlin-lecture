@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Test
+import org.junit.Test
 
-class ForClassTest {
+class TestForClass {
 
     @Test
     fun testFor() {

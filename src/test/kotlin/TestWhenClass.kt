@@ -1,7 +1,7 @@
-import org.junit.jupiter.api.Test
+import org.junit.Test
 import kotlin.test.assertEquals
 
-class WhenClassTest {
+class TestWhenClass {
 
     @Test
     fun testWhen1() {
