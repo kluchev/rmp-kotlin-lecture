@@ -41,7 +41,7 @@ class TestThreadClass {
     fun test4() {
         println("run thread...")
 
-        ThreadClass3().start()
+        ThreadClass4().start()
 
         println("wait...")
         runBlocking { delay(3000) }
