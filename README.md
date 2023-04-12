@@ -17,7 +17,7 @@
 * [Корутины](src/main/kotlin/CoroutineExample.kt)
 * [Сравнение тредов и корутин](src/main/kotlin/CoroutinesVsTreads.kt)
 * [Пример простого актора](src/main/kotlin/ActorExample.kt)
-* [Пример простого диспетчера](src/main/kotlin/ActorExample.kt)
+* [Пример простого диспетчера](src/main/kotlin/DispatcherExample.kt)
 * [Тесты](src/test/kotlin)
 
 ## Полезные ссылки
