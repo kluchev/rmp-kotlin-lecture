@@ -22,6 +22,7 @@
 
 ## Полезные ссылки
 
+* [Андрей Бреслав. Компромиссы, или как проектируются языки программирования](https://youtu.be/CX_K1r0Vklg?si=9PDzXDYGIGFX8ggf)
 * [Андрей Бреслав. Что такое Kotlin? Введение](https://youtu.be/HWyd1gYMkl0)
 * [Андрей Бреслав. Лекция 1. Kotlin: практика разработки. ](https://youtu.be/QOIn8Uh3lkE)
 * [Андрей Бреслав. Лекция 2. Kotlin: практика разработки.](https://youtu.be/XFmZq8RxAiw?si=YpbhRCqlEyq-EPu4)
