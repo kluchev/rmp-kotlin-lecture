@@ -50,4 +50,10 @@ class TestWhenExample {
         assertEquals( "bar", WhenExample().testWhen6(2))
         assertEquals( "baz", WhenExample().testWhen6(3))
     }
+
+    @Test
+    fun testWhen7() {
+        assertEquals( "A", WhenExample().testWhen7(MsgA()))
+        assertEquals( "B", WhenExample().testWhen7(MsgB()))
+    }
 }

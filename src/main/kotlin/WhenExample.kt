@@ -1,4 +1,13 @@
+open class Msg
+class MsgA() : Msg() {
+    fun mA() : String { return "A" }
+}
+class MsgB : Msg() {
+    fun mB() : String { return "B" }
+}
+
 class WhenExample {
+
     fun testWhen1(value: Int): String {
         var result = ""
         when (value) {
@@ -54,4 +63,12 @@ class WhenExample {
         }
 
     fun testWhen6(value: Int): String = when (value) { 1 -> "foo"; 2 -> "bar"; 3 -> "baz"; else -> "?" }
+
+    fun testWhen7(msg : Msg) : String =
+         when( msg ) {
+            is MsgA -> msg.mA()
+            is MsgB -> msg.mB()
+            else -> "?"
+        }
+
 }
