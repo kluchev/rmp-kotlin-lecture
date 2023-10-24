@@ -1,6 +1,5 @@
 import java.time.*
 import java.time.format.DateTimeFormatter
-import java.util.stream.Collectors
 
 class ClockExample {
     private val patternTimestamp = "dd.MM.yyyy HH:mm:ss"

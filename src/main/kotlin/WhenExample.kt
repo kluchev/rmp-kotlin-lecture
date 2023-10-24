@@ -16,7 +16,6 @@ class WhenExample {
             3 -> result = "baz"
             else -> result = "?"
         }
-
         return result
     }
 
@@ -27,7 +26,6 @@ class WhenExample {
             3 -> result = "baz"
             else -> result = "?"
         }
-
         return result
     }
 
@@ -39,7 +37,6 @@ class WhenExample {
             in 7..9 -> result = "baz"
             else -> result = "?"
         }
-
         return result
     }
 
@@ -50,7 +47,6 @@ class WhenExample {
             3 -> "baz"
             else -> "?"
         }
-
         return result
     }
 
@@ -62,7 +58,9 @@ class WhenExample {
             else -> "?"
         }
 
-    fun testWhen6(value: Int): String = when (value) { 1 -> "foo"; 2 -> "bar"; 3 -> "baz"; else -> "?" }
+    fun testWhen6(value: Int): String = when (value) {
+        1 -> "foo"; 2 -> "bar"; 3 -> "baz"; else -> "?"
+    }
 
     fun testWhen7(msg : Msg) : String =
          when( msg ) {
